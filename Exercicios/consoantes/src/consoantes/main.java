@@ -23,7 +23,7 @@ public class main {
 				letraAtual = entrada.next();
 				
 				for(int contador = 0; contador < vogais.length; contador++) {
-					if(letraAtual.equals(vogais[contador])){
+					if(letraAtual.equalsIgnoreCase(anotherString: vogais[contador])){
 						totIguais ++;
 					}
 				}
